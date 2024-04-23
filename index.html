@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike. Just Do It. 나이키 코리아</title>
+    <!-- fonawesome -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/bd0a8925a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css & js -->
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="#home">
+              <img src="./img/nike.png" alt="logo" />
+            </a>
+          </div>
+          <ul class="gnb">
+            <li><a href="#new">New</a></li>
+            <li><a href="#goods">Goods</a></li>
+            <li><a href="#cart">Cart</a></li>
+          </ul>
+          <div class="toggle"></div>
+        </nav>
+      </header>
+      <main>
+        <section id="home">
+          <div class="main_background">
+            <img src="./img/shoes_pink.png" alt="main_shoes" />
+          </div>
+          <div class="main_info">
+            <div class="main_info_top">
+              <h1>AIR MAX - APS - 200</h1>
+              <span>shoes life style</span>
+            </div>
+            <button>More</button>
+          </div>
+        </section>
+        <section id="new">
+          <div class="sec_top new_info">
+            <h1>New Item</h1>
+            <span>Look for new items</span>
+          </div>
+          <ul class="new_products">
+            <li>
+              <a href=""
+                ><img src="./img/shoes_white1.png" alt="shoes_white1"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/shoes_white2.png" alt="shoes_white2"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/shoes_blue1.png" alt="shoes_blue1"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/shoes_black.png" alt="shoes_black"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/shoes_yellow1.png" alt="shoes_yellow1"
+              /></a>
+            </li>
+            <li>
+              <a href=""><img src="./img/shoes_red1.png" alt="shoes_red1" /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/shoes_green1.png" alt="shoes_green1"
+              /></a>
+            </li>
+            <li>
+              <a href=""><img src="./img/shoes_pink.png" alt="shoes_pink" /></a>
+            </li>
+          </ul>
+        </section>
+        <section id="goods">
+          <div class="sec_top goods_info">
+            <h1>Goods</h1>
+            <span>Choose the Product you like</span>
+          </div>
+          <div class="goods_sorts">
+            <select name="goods-style" id="goods_items">
+              <option value="all">All Style</option>
+              <option value="lifeStyle">Life Style</option>
+              <option value="jordan">Jordan</option>
+              <option value="running">Running</option>
+              <option value="basketball">Basketball</option>
+            </select>
+          </div>
+          <div class="goods_item_box">
+            <ul class="goods_items">
+              <li class="item" id="1" data-alt="lifeStyle">
+                <div class="item_img">
+                  <img src="./img/shoes_lifeStyle3.png" alt="shoes_lifeStyle" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Lorem Rain Nur V2</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">190,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="2" data-alt="lifeStyle">
+                <div class="item_img">
+                  <img src="./img/shoes_lifeStyle.png" alt="" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Air Zoom Pegasus V2</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">199,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="3" data-alt="lifeStyle">
+                <div class="item_img">
+                  <img
+                    src="./img/shoes_lifeStyle2.png"
+                    alt="shoes_lifeStyle2"
+                  />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Zoom Fly Target V3</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">175,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="4" data-alt="jordan">
+                <div class="item_img">
+                  <img src="./img/shoes_jordan2.png" alt="jordan2" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Air Zoom Pegasus</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">185,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="5" data-alt="lifeStyle">
+                <div class="item_img">
+                  <img
+                    src="./img/shoes_lifeStyle4.png"
+                    alt="shoes_lifeStyle4"
+                  />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Air Zoom Pegasus V2</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">190,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="6" data-alt="running">
+                <div class="item_img">
+                  <img src="./img/shoes_running.png" alt="shoes_running" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Blue Shin woe</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">120,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="7" data-alt="jordan">
+                <div class="item_img">
+                  <img src="./img/shoes_jordan.png" alt="shoes_jordan" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Letro Resin Col V2</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">135,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="8" data-alt="basketball">
+                <div class="item_img">
+                  <img
+                    src="./img/shoes_basketball.png"
+                    alt="shoes_basketball"
+                  />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Break son</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">265,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="9" data-alt="running">
+                <div class="item_img">
+                  <img src="./img/shoes_running3.png" alt="shoes_running3" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Find Like Source</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">160,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="10" data-alt="running">
+                <div class="item_img">
+                  <img src="./img/shoes_running4.png" alt="shoes_running" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Zoom Fly Target</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">138,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="11" data-alt="running">
+                <div class="item_img">
+                  <img src="./img/shoes_running5.png" alt="shoes_running" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Next Bron Soul V2</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">240,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="12" data-alt="running">
+                <div class="item_img">
+                  <img src="./img/shoes_running2.png" alt="shoes_running" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Next Bron Soul V3</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">153,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="13" data-alt="training">
+                <div class="item_img">
+                  <img src="./img/shoes_traning.png" alt="shoes_traning" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Air Zoom Pegasus v3</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">215,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="14" data-alt="training">
+                <div class="item_img">
+                  <img src="./img/shoes_traning2.png" alt="shoes_traning2" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Troll Shine Bolt</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">199,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="item" id="15" data-alt="training">
+                <div class="item_img">
+                  <img src="./img/shoes_traning3.png" alt="shoes_running" />
+                </div>
+                <div class="item_info">
+                  <div class="item_title">
+                    <h1>Lorem Rain Nur</h1>
+                  </div>
+                  <div class="item_subtit">
+                    <span class="price">156,000</span>
+                    <button class="wish"></button>
+                    <button class="cart">
+                      <img src="./img/cart.png" alt="cart" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="cart">
+          <h1>Cart</h1>
+          <ul class="cart_container">
+            <h3>카트가 비어있습니다.</h3>
+          </ul>
+          <div class="total">
+            <h2 class="total_title">Total</h2>
+            <span class="total_price">0</span>
+          </div>
+          <div class="pay">
+            <button>Order selected Items</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
